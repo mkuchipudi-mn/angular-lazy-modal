@@ -1,0 +1,75 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+* {
+  font-family: Lato;
+}
+
+p {
+  color: #444;
+}
+
+a {
+  color: #1976d2;
+}
+
+code {
+  background: #efefef;
+  color: #dc2607;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.tabs {
+  border-bottom: 1px solid #ddd;
+  margin: 2em 0 2em 0;
+}
+
+.tabs a {
+  display: inline-block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.tabs a.active,
+.tabs a:hover {
+  background: #ddd;
+}
+
+.links {
+  margin: 2em 0 1em 0;
+}
+
+.links a {
+  background: #eee;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 8px;
+  margin-right: 8px;
+}
+
+.links a.active,
+.links a:hover {
+  background: #ddd;
+}
+
+.with-link {
+  background: #eee;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+.with-link .links {
+  margin-top: 1em;
+}
+
+
+.cdk-overlay-pane .mat-dialog-container {
+  width: 256px;
+}
+
+.mat-dialog-actions {
+  justify-content: space-between;
+}

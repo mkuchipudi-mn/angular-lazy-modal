@@ -1,0 +1,7 @@
+<h3>Overview</h3>
+
+<p>This is demonstration of few possible ways we can route modals. We have an examples using wrapper components loaded into <code>router-outlet</code> and one without.</p>
+<p>Handling of opening modals can also be moved to either router guards or resolvers, however both to those approaches will also require defining empty routes in loaded module.</p>
+
+<h4>Closing modal on navigation</h4>
+<p>One of the common patterns we have is closing modals on navigation. We may be able to handle this globally by simply listening for navigation changes and closing any qualied dialogs. See <code>app.effects.ts</code>. In this case we are just using NgRx effects and its router state, but any global servie might suffice.</p>
